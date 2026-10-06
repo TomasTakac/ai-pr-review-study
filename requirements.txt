@@ -1,0 +1,12 @@
+# Python 3.14
+pandas==3.0.6
+numpy==2.5.3
+pyarrow==25.0.1
+huggingface_hub==2.1.1
+requests==2.34.2
+pyfixest==0.60.0
+scipy==1.18.1
+matplotlib==3.11.2
+nbformat==5.11.1
+nbconvert==7.17.1
+ipykernel==7.4.0

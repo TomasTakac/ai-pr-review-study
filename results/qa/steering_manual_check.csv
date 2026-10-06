@@ -1,0 +1,114 @@
+author_group,kind,repo,pr,text,manual_label
+Copilot,comment,casdoor/casdoor,4541,"@copilot your code causes frontend crash like below:
+
+```
+ApplicationListPage.js:308 Uncaught TypeError: Cannot read properties of undefined (reading 'order')
+    at title (ApplicationListPage.js:308:1)
+    at index.js:133:1
+    at renderWithHooks (react-dom.development.js:16305:1)
+    at upd",code feedback addressed to agent
+Copilot,comment,thomhurst/TUnit,2800,"@claude [Claude Auto-Fix] Detected failed modularpipeline build (check run 48222014084).
+
+  Please analyze the build failure at https://github.com/thomhurst/TUnit/actions/runs/17008801146/job/48222014084 and commit a fix for it.
+
+  Instructions:
+  1. Look at the build errors from the modularpipeline",procedural instruction / bot request
+Copilot,comment,OliverZhaohaibin/iPhotron-LocalPhotoAlbumManager,212,@copilot 这么改动，影响ipo文件的读取，加载图像，和保存吗,code feedback addressed to agent
+Copilot,comment,dotnet/docs,47586,@copilot Are there any instrument names that should be surrounded with backticks?,code feedback addressed to agent
+Copilot,comment,microsoft/aspire,12317,@copilot - add some verbose logging to this method. You can get the logger from the `dockerfileContext.Services`.,code feedback addressed to agent
+Copilot,comment,Azure/azure-sdk-for-net,50564,"> > > > > > @copilot  Run `eng/scripts/Export-Api.ps1 keyvault`
+> 
+> ...
+> 
+> I've attempted to configure the firewall allowlist by setting the `COPILOT_AGENT_FIREWALL_ALLOWLIST` environment variable with the Azure DevOps blob storage domains, but the Export-API script is still failing due to bl",procedural instruction / bot request
+Copilot,comment,Azure/azure-sdk-tools,11617,@copilot Update the code as per comments,procedural instruction / bot request
+Copilot,comment,polarsource/polar,8185,"
+@copilot can you move it to be a concise section in the reverse invoices mdx and make sure to include this as FAQ instead of a full blown page",code feedback addressed to agent
+Copilot,comment,epam/ketcher,9292,@copilot please replace all `import` to `import type` everywhere where it make sence,code feedback addressed to agent
+Copilot,comment,MudBlazor/MudBlazor,12339,"@copilot probably worth to look at the copilot review comments again (but remember we prioritize perfomance and low memory allocation), also if worth to benhcmark whatever
+```
+ return string.Create(prefix.Length + RandomStringLength, prefix, static (span, pfx) =>
+	{
+		... logic
+	});
+```
+is fa",procedural instruction / bot request
+Human,comment,dependabot/dependabot-core,13899,@copilot can you address the linter errors in CI please?,procedural instruction / bot request
+Human,comment,inkeep/agents,2763,"@claude add a changeset for this PR
+",procedural instruction / bot request
+Copilot,review,Azure/azure-sdk-for-net,54545,@copilot please resolve comments,procedural instruction / bot request
+Human,comment,taikoxyz/taiko-mono,20340,@claude please review,procedural instruction / bot request
+Copilot,comment,dotnet/sdk,51216,"@copilot, there are still failures. Please make sure you do a full build and all tests pass.
+```
+Build FAILED.
+
+/mnt/vss/_work/1/s/src/Microsoft.CodeAnalysis.NetAnalyzers/tests/Microsoft.CodeAnalysis.NetAnalyzers.UnitTests/Microsoft.NetCore.Analyzers/Performance/PreferReadOnlySpanOverSpanTests.c",procedural instruction / bot request
+Copilot,comment,Significant-Gravitas/AutoGPT,11219,@cursor move the sentry unmask to the Text and Button components instead of it being all over random places. Update the pr with that change,code feedback addressed to agent
+Copilot,comment,Azure/azure-sdk-for-js,37578,"> > > > @copilot+claude-sonnet-4.6 analyze ci failures, why `tsc -p /path/to/package/tsconfig.snippets.json` would check the compile issue from src folders
+> > > 
+> > > 
+> > > The `src` folder is included by design. `...
+> 
+> A separate build step is not needed. Here's why:
+> 
+> `snippets.spe",procedural instruction / bot request
+Copilot,comment,CherryHQ/cherry-studio,11379,"> [!NOTE]
+> This issue/comment/review was translated by Claude.
+
+@copilot Regarding `extra_body` - it's fully supported for passing custom bot parameters like `reasoning_effort`, `thinking_budget`, etc.
+
+What's supported is the format: `extra_body: { reasoning_effort }` and `extra_body: { thinking_b",code feedback addressed to agent
+Copilot,comment,dotnet/msbuild,12930,"@copilot since in quiet mode there is no dynamic refresh, can we prevent the hide/show pair from being written at all?",code feedback addressed to agent
+Copilot,comment,dotnet/maui,32341,"@copilot, nice job on the navigation page
+|Before|After|
+|--|--|
+|<img src=""https://github.com/user-attachments/assets/66795206-ce19-445a-a78d-57633e9203db"" width=""300px""/>|<img src=""https://github.com/user-attachments/assets/93b62a48-a671-4e80-bc8f-da47dca6085d"" width=""300px""/>|
+
+",code feedback addressed to agent
+Copilot,comment,Azure/azure-sdk-for-python,41797,@copilot can you try again?,procedural instruction / bot request
+OpenAI_Codex,comment,StarRocks/starrocks,69772,@codex review,procedural instruction / bot request
+Cursor,comment,MetaMask/metamask-mobile,24424,"@cursor READ THIS MEMORY FILE: https://raw.githubusercontent.com/Prithpal-Sooriya/Cloud-Agent-Memory/refs/heads/main/Memory.md
+
+Can you fix prettier and eslint issues on the files you changed?",procedural instruction / bot request
+Copilot,comment,gitbutlerapp/gitbutler,10028,@copilot Don't do any backwards compatibility - fully replace `regex` with `gix-glob` in the Rules engine.,code feedback addressed to agent
+Copilot,comment,dotnet/msbuild,12662,"@copilot I see other issues
+<img width=""3514"" height=""1369"" alt=""{6BAFB05D-D88A-4792-8792-710F53A75ECB}"" src=""https://github.com/user-attachments/assets/8b9f624b-5cd4-422a-9e2f-ca26bb859a68"" />
+",code feedback addressed to agent
+Copilot,comment,Azure/azure-sdk-for-net,54545,@copilot  please continue. You need to add the arrayresponsecollectiondefinition class now.,procedural instruction / bot request
+Human,comment,pollinations/pollinations,4276,@claude can you review,procedural instruction / bot request
+Copilot,comment,github/gh-aw,20525,@copilot+claude-sonnet-4.6 update smoke-copilot to use the reply_to_pull_request_review_comment safe output to put a reply on a request review comment,code feedback addressed to agent
+Human,comment,NethermindEth/nethermind,10958,@claude isn't test getPayloadV1_should_allow_asking_multiple_times_by_same_payload_id going to fail if you do TryRemove instead of TryGetValue in GetPayload? - Assess the situation properly here?,code feedback addressed to agent
+Copilot,comment,thomhurst/TUnit,2800,"@claude [Claude Auto-Fix] Detected failed modularpipeline build (check run 48218372118).
+
+  Please analyze the build failure at https://github.com/thomhurst/TUnit/actions/runs/17007178113/job/48218372118 and commit a fix for it.
+
+  Instructions:
+  1. Look at the build errors from the modularpipeline",procedural instruction / bot request
+Copilot,comment,StarRocks/starrocks,67956,@copilot make resolveConstructor as a method for ExtensionContext. consider rename to registerXXX,code feedback addressed to agent
+Copilot,comment,microsoft/agent-framework,4613,"@copilot+claude-opus-4.6 please address.
+```
+/app/dotnet/samples/02-agents/AgentProviders/Agent_With_AzureAIProject/Program.cs(1,1): error IMPORTS: Fix imports ordering. [/app/dotnet/samples/02-agents/AgentProviders/Agent_With_AzureAIProject/Agent_With_AzureAIProject.csproj]
+Running Code Style an",procedural instruction / bot request
+Copilot,comment,microsoft/agent-framework,3395,@copilot,procedural instruction / bot request
+Human,review,inkeep/agents,1744,"@copilot  Could we add a little bit of space (vertically) between the rows?
+<img width=""491"" height=""282"" alt=""Image"" src=""https://github.com/user-attachments/assets/dfb0ddd5-d4cb-48c1-b213-9c0b3c795ce7"" />
+
+",code feedback addressed to agent
+Copilot,comment,thomhurst/TUnit,2800,"@claude [Claude Auto-Fix] Detected failed modularpipeline build (check run 48220592473).
+
+  Please analyze the build failure at https://github.com/thomhurst/TUnit/actions/runs/17008172648/job/48220592473 and commit a fix for it.
+
+  Instructions:
+  1. Look at the build errors from the modularpipeline",procedural instruction / bot request
+Copilot,comment,Azure/azure-sdk-for-python,45803,"@copilot+claude-sonnet-4.6 this should be run for any packages touched that have a pyproject.toml
+",code feedback addressed to agent
+Human,comment,github/gh-aw,2161,"@copilot 
+ Add a minimalistic feature flag helper in the compiler .go code that reads the environment variable GH_AW_FEATURES and determine if the ""flag"" is in the env at string. Make sure to do case insensitive string comparisons. No need for caching.
+
+Use the ""firewall"" feature test to determine i",code feedback addressed to agent
+Copilot,comment,langfuse/langfuse,10435,"@copilot CI is still failing: FAIL src/__tests__/async/traces-api.servertest.ts (56.052 s)
+  ● /api/public/traces API Endpoint › Advanced Filtering - Dual Path Tests › with traces table › should filter by latency without requesting metrics field group
+
+Also run pnpm format to avoid tripping other ch",procedural instruction / bot request
+Copilot,comment,dotnet/maui,32856,@copilot please try again since I was rate limited ,procedural instruction / bot request
+Copilot,comment,Azure/azure-sdk-for-net,51144,@copilot run `eng/scripts/Generate.ps1` and commit the updates.,procedural instruction / bot request

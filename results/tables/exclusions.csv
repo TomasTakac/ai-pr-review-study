@@ -1,0 +1,7 @@
+step,remaining_prs
+sampled PRs,335297
+details fetched,335297
+not Google Jules,333676
+human PR without agent signature,309191
+human PR authored by a User account without a bot name,306692
+reviews/comments not truncated (<=100),306512

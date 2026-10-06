@@ -1,0 +1,8 @@
+,median,median,median,median,median,median,mean,mean,mean,mean,mean,mean,share_zero,share_zero,share_zero,share_zero,share_zero,share_zero
+author_group,Claude Code,Codex,Copilot,Cursor,Devin,Human,Claude Code,Codex,Copilot,Cursor,Devin,Human,Claude Code,Codex,Copilot,Cursor,Devin,Human
+variable,,,,,,,,,,,,,,,,,,
+files_changed,4.0,3.0,3.0,3.0,3.0,3.0,21.25,9.727,14.854,11.752,16.741,23.371,0.003,0.003,0.075,0.005,0.004,0.005
+lines_changed,145.0,97.0,88.0,93.0,81.0,88.0,3086.429,1078.85,2115.318,1255.422,1707.723,3092.324,0.004,0.004,0.076,0.02,0.007,0.007
+review_comments_total,0.0,0.0,0.0,0.0,0.0,0.0,1.686,0.851,1.692,1.044,1.221,2.101,0.705,0.806,0.7,0.761,0.727,0.629
+reviewers_total,0.0,0.0,1.0,0.0,1.0,1.0,0.735,0.454,0.98,0.551,0.782,1.098,0.515,0.678,0.461,0.597,0.452,0.338
+reviews_total,0.0,0.0,1.0,0.0,1.0,1.0,1.293,0.693,1.758,0.914,1.321,1.827,0.515,0.678,0.461,0.597,0.452,0.338

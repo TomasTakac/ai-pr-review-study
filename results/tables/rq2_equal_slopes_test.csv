@@ -1,0 +1,7 @@
+outcome,size,chi2,df,p
+Reviews,Changed lines (log),12.117516412011348,4,0.016498446377110097
+Reviews,Changed files (log),12.488113529118566,4,0.01406767891395815
+Inline review comments,Changed lines (log),6.505531452084022,4,0.1644421905631797
+Inline review comments,Changed files (log),11.018557815891686,4,0.02635623987341267
+Distinct reviewers,Changed lines (log),59.547613585094226,4,3.6106153783270084e-12
+Distinct reviewers,Changed files (log),76.69508486661361,4,8.725524435174327e-16

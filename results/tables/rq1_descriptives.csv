@@ -1,0 +1,8 @@
+,median,median,mean,mean,share_zero,share_zero
+author_kind,AI agent,Human,AI agent,Human,AI agent,Human
+variable,,,,,,
+files_changed,3.0,3.0,17.491,23.371,0.02,0.005
+lines_changed,116.0,88.0,2436.842,3092.324,0.022,0.007
+review_comments_total,0.0,0.0,1.521,2.101,0.722,0.629
+reviewers_total,0.0,1.0,0.744,1.098,0.528,0.338
+reviews_total,0.0,1.0,1.297,1.827,0.528,0.338

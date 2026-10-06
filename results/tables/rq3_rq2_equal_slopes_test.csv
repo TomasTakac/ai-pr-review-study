@@ -1,0 +1,9 @@
+outcome,size,chi2,df,p
+Reviews (human reviewers),Changed lines (log),80.1704327360279,4,1.602866321759317e-16
+Reviews (human reviewers),Changed files (log),51.327288253005584,4,1.9069551310012782e-10
+Reviews (bot reviewers),Changed lines (log),15.793934589821708,4,0.0033085116952008345
+Reviews (bot reviewers),Changed files (log),7.876093350917957,4,0.09622396534932762
+Inline review comments (human reviewers),Changed lines (log),10.796010681528113,4,0.028954806402379154
+Inline review comments (human reviewers),Changed files (log),6.74950779722557,4,0.14973269137623849
+Inline review comments (bot reviewers),Changed lines (log),2.7306302338240993,4,0.6038654552795899
+Inline review comments (bot reviewers),Changed files (log),8.517443567996079,4,0.07436024706188565
