@@ -35,7 +35,7 @@ fi
 echo "=== quality checks (results/qa/)"
 "$PY" src/qa_checks.py
 
-for nb in 02_data_preparation 03_rq1_analysis 04_rq2_analysis 05_rq3_analysis; do
+for nb in 02_data_preparation 03_rq1_analysis 04_rq2_analysis 05_rq3_analysis 06_robustness; do
   echo "=== running notebooks/$nb.ipynb"
   (cd notebooks && "../$JUPYTER" nbconvert --to notebook --execute --inplace \
       --ExecutePreprocessor.timeout=-1 "$nb.ipynb")

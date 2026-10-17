@@ -1,0 +1,33 @@
+rq,test,outcome,size,estimate,p,p_holm,significant_after_holm
+RQ1,AI - human slope,Reviews,Changed lines (log),0.0124203020946437,0.022411275113618,0.318545585130105,False
+RQ1,AI - human slope,Reviews,Changed files (log),0.0325326015822833,0.0005560886620322,0.012790039226740602,True
+RQ1,AI - human slope,Inline review comments,Changed lines (log),0.0062894858566684,0.4470639245152338,1.0,False
+RQ1,AI - human slope,Inline review comments,Changed files (log),0.0115047397625524,0.3834665451095289,1.0,False
+RQ1,AI - human slope,Distinct reviewers,Changed lines (log),0.0129729036517512,9.144626010461884e-05,0.0023776027627200897,True
+RQ1,AI - human slope,Distinct reviewers,Changed files (log),0.0334747140175561,1.0987642773604524e-08,3.0765399766092665e-07,True
+RQ3,AI - human slope,Reviews (human reviewers),Changed lines (log),-0.0035204600143323,0.5709059376729047,1.0,False
+RQ3,AI - human slope,Reviews (human reviewers),Changed files (log),0.0202875151920087,0.0589064970487632,0.6479714675363951,False
+RQ3,AI - human slope,Reviews (bot reviewers),Changed lines (log),0.0283587696661734,0.0005078648093086,0.0121887554234064,True
+RQ3,AI - human slope,Reviews (bot reviewers),Changed files (log),0.0390388298114254,0.005133286192952,0.0926405820340184,False
+RQ3,AI - human slope,Inline review comments (human reviewers),Changed lines (log),-0.0357105004177079,0.0013951396691657,0.0292979330524797,True
+RQ3,AI - human slope,Inline review comments (human reviewers),Changed files (log),-0.015533147235733,0.3097429833383497,1.0,False
+RQ3,AI - human slope,Inline review comments (bot reviewers),Changed lines (log),0.0275108329454091,0.0048758201070536,0.0926405820340184,False
+RQ3,AI - human slope,Inline review comments (bot reviewers),Changed files (log),0.02208658292226,0.1792726648441532,1.0,False
+RQ3,AI - human slope,Distinct reviewers (human reviewers),Changed lines (log),0.0103711352877408,0.021236372342007,0.318545585130105,False
+RQ3,AI - human slope,Distinct reviewers (human reviewers),Changed files (log),0.0357620188225972,4.657844162939387e-06,0.00012576179239936344,True
+RQ3,AI - human slope,Distinct reviewers (bot reviewers),Changed lines (log),0.0145788846521167,0.0011052275065366,0.0243150051438052,True
+RQ3,AI - human slope,Distinct reviewers (bot reviewers),Changed files (log),0.0284870160169332,0.0002509686679586,0.0062742166989650005,True
+RQ2,equal agent slopes,Reviews,Changed lines (log),12.117516412011348,0.01649844637711,0.26397514203376,False
+RQ2,equal agent slopes,Reviews,Changed files (log),12.488113529118566,0.0140676789139581,0.2391505415372877,False
+RQ2,equal agent slopes,Inline review comments,Changed lines (log),6.505531452084022,0.1644421905631797,1.0,False
+RQ2,equal agent slopes,Inline review comments,Changed files (log),11.018557815891686,0.0263562398734126,0.3426311183543638,False
+RQ2,equal agent slopes,Distinct reviewers,Changed lines (log),59.547613585094226,3.610615378327008e-12,1.0831846134981024e-10,True
+RQ2,equal agent slopes,Distinct reviewers,Changed files (log),76.69508486661361,8.725524435174328e-16,2.7049125749040417e-14,True
+RQ3 (agents),equal agent slopes,Reviews (human reviewers),Changed lines (log),80.1704327360279,1.602866321759317e-16,5.1291722296298145e-15,True
+RQ3 (agents),equal agent slopes,Reviews (human reviewers),Changed files (log),51.327288253005584,1.9069551310012782e-10,5.530169879903707e-09,True
+RQ3 (agents),equal agent slopes,Reviews (bot reviewers),Changed lines (log),15.793934589821708,0.0033085116952008,0.066170233904016,False
+RQ3 (agents),equal agent slopes,Reviews (bot reviewers),Changed files (log),7.876093350917957,0.0962239653493276,0.8660156881439485,False
+RQ3 (agents),equal agent slopes,Inline review comments (human reviewers),Changed lines (log),10.796010681528111,0.0289548064023791,0.34745767682854917,False
+RQ3 (agents),equal agent slopes,Inline review comments (human reviewers),Changed files (log),6.74950779722557,0.1497326913762384,1.0,False
+RQ3 (agents),equal agent slopes,Inline review comments (bot reviewers),Changed lines (log),2.7306302338240993,0.6038654552795899,1.0,False
+RQ3 (agents),equal agent slopes,Inline review comments (bot reviewers),Changed files (log),8.517443567996079,0.0743602470618856,0.743602470618856,False

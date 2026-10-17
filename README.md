@@ -54,7 +54,8 @@ AIDev-7.6M ──► prepare ──► list ──► sample ──► details �
 │   ├── 02_data_preparation.ipynb # analysis dataset + exclusion table
 │   ├── 03_rq1_analysis.ipynb     # descriptives, RQ1 models, hurdle robustness
 │   ├── 04_rq2_analysis.ipynb     # per-agent models, equal-slopes test, concentration
-│   └── 05_rq3_analysis.ipynb     # reviewer mix, steering, human vs bot models
+│   ├── 05_rq3_analysis.ipynb     # reviewer mix, steering, human vs bot models
+│   └── 06_robustness.ipynb       # Holm correction, 100-PR threshold, without Claude Code, discussion comments
 ├── src/
 │   ├── github_collector.py       # data collection (prepare, list, sample, details)
 │   ├── preprocessing.py          # one row per PR

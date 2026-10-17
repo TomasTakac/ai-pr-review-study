@@ -208,3 +208,14 @@ def rate_ratios(df, outcomes=OUTCOMES, size="log_lines", points=(10, 100, 1000))
             rows.append({"outcome": label, "size": s, "rate_ratio": np.exp(r["elasticity"]),
                          "ci_low": np.exp(r["ci_low"]), "ci_high": np.exp(r["ci_high"]), "p": r["p"]})
     return pd.DataFrame(rows)
+
+
+# ---------------------------------------------------------------- robustness
+
+def holm(p):
+    """Holm-Bonferroni adjusted p-values (controls the family-wise error rate across many tests)."""
+    p = pd.Series(p, dtype=float)
+    order = p.sort_values().index
+    m = len(p)
+    adj = (p[order] * np.arange(m, 0, -1)).cummax().clip(upper=1)
+    return adj.reindex(p.index)
